@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.learn.pattern</groupId>
+    <artifactId>java-design-pattern</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>creational-singleton</module>
+        <module>creational-factory</module>
+        <module>creational-builder</module>
+        <module>creational-prototype</module>
+        <module>creational-abstractfactory</module>
+        <module>structural-adapter</module>
+        <module>structural-composite</module>
+        <module>structural-proxy</module>
+        <module>structural-flyweight</module>
+        <module>structural-decorator</module>
+        <module>structural-Facade</module>
+        <module>structural-bridge</module>
+        <module>behavioral-template</module>
+        <module>behavioral-mediator</module>
+        <module>creational</module>
+        <module>singleton</module>
+        <module>builder</module>
+        <module>structural</module>
+        <module>structural/adapter</module>
+        <module>structural/bridge</module>
+        <module>structural/composite</module>
+        <module>structural/decorator</module>
+        <module>structural/facade</module>
+        <module>structural/flyweight</module>
+        <module>structural/proxy</module>
+        <module>behavioral</module>
+        <module>template</module>
+        <module>mediator</module>
+        <module>chainOfResponsibility</module>
+        <module>Observer</module>
+    </modules>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
